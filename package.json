@@ -1,0 +1,38 @@
+{
+  "name": "manage-landing-page-master",
+  "version": "1.0.0",
+  "description": "belajar",
+  "main": "index.js",
+  "scripts": {
+    "buildcss": "tailwindcss build tailwind.config.css -c tailwind.config.js -o ./src/style.css",
+    "prod": "webpack --mode production --config webpack.config.js",
+    "dev": "webpack-dev-server --mode development --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "author": "taufiq",
+  "license": "MIT",
+  "dependencies": {
+    "swiper": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "autoprefixer": "^9.8.3",
+    "babel-loader": "^8.2.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^5.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "postcss": "^7.0.26",
+    "postcss-loader": "^4.0.2",
+    "style-loader": "^2.0.0",
+    "tailwindcss": "^1.9.5",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^5.4.0"
+  }
+}
