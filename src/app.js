@@ -18,8 +18,8 @@ new Swiper('.swiper-container', {
   autoplay: {
     delay: 3000,
   },
-  // slidesPerView: 3,
-  // spaceBetween: 30,
+  slidesPerView: 3,
+  spaceBetween: 30,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
