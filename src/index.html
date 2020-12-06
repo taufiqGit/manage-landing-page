@@ -8,8 +8,8 @@
   <title>Manage landing page</title>
   
 </head>
-<body class="font-BeVietnam relative overflow-x-hidden">
-  <header class="container mx-auto px-8 lg:px-16">
+<body class="font-BeVietnamoverflow-x-hidden">
+  <header class="container relative  mx-auto px-8 lg:px-16">
     <img class="absolute -z-10 -top-32 -right-32" src="<%= require('./images/bg-tablet-pattern.svg') %>" alt="mm">
     <nav class="flex h-24 items-center justify-between">
       <div class="flex h-full items-center">
@@ -28,7 +28,7 @@
       </button>
     </nav>
 
-    <nav class="fixed hidden lg:hidden px-8 w-full right-0" id="NavMobile">
+    <nav class="absolute hidden lg:hidden px-8 w-full right-0" id="NavMobile">
       <ul class="flex flex-col bg-White rounded-lg shadow-lg text-sm items-center text-center">
         <li class="my-2"><a class="font-semibold text-DarkBlue" href="">Pricing</a></li>
         <li class="my-2"><a class="font-semibold text-DarkBlue" href="">Product</a></li>
@@ -88,7 +88,7 @@
         </div>
       </section>
     </div>
-    <div class="mt-16">
+    <div class="mt-16 relative">
       <h3 class="text-center text-3xl text-bold text-DarkBlue">What they’ve said</h3>
       <div class="swiper-container overflow-visible w-full mt-16">
        <div class="swiper-wrapper">
