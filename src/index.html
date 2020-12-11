@@ -10,7 +10,7 @@
 </head>
 <body class="font-BeVietnam overflow-x-hidden">
   <header class="container relative  mx-auto px-8 lg:px-16">
-    <img class="absolute -z-10 -top-32 -right-32" src="<%= require('./images/bg-tablet-pattern.svg') %>" alt="mm">
+    <!-- <img class="absolute -z-10 -top-32 -right-32" src="<%= require('./images/bg-tablet-pattern.svg') %>" alt="mm"> -->
     <nav class="flex h-24 items-center justify-between">
       <div class="flex h-full items-center">
         <img src="<%= require('./images/logo.svg') %>" alt="logo"> 
@@ -41,7 +41,7 @@
     <div class="flex justify-between flex-col-reverse md:flex-row h-auto">
       <section class="w-full lg:w-2/5 text-center md:text-left">
         <h2 class="text-4xl mt-8 md:mt-16 font-semibold leading-tight text-DarkBlue">Bring everyone together to build better products.</h2>
-        <p class="mt-6 text-sm font-hairline text-DarkGrayishBlue">Manage makes it simple for software teams to plan day-to-day 
+        <p class="mt-6 md:text-sm font-hairline text-DarkGrayishBlue">Manage makes it simple for software teams to plan day-to-day 
         tasks while keeping the larger team goals in view.</p>
         <button class="mt-6 text-sm h-10 w-32 text-White bg-BrightRed rounded-full hover:bg-VeryPaleRed">Get Started</button>
       </section>
@@ -54,7 +54,7 @@
     <div class="flex container flex-col md:flex-row mx-auto px-8 lg:px-16">
       <section class="w-full h-auto md:w-6/12 text-center md:text-left">
         <h2 class="text-3xl font-semibold text-DarkBlue">What’s different about Manage?</h2>
-        <p class="text-sm mt-4 max-w-xs font-hairline text-DarkGrayishBlue mx-auto md:mx-0">Manage provides all the functionality your team needs, without 
+        <p class="md:text-sm mt-4 max-w-xs font-hairline text-DarkGrayishBlue mx-auto md:mx-0">Manage provides all the functionality your team needs, without 
           the complexity. Our software is tailor-made for modern digital 
           product teams.</p> 
       </section>
@@ -64,7 +64,7 @@
           <span class="bg-VeryPaleRed md:bg-White w-full h-8 inline-block rounded-l-xl py-1">
             <h4 class="text-DarkBlue font-semibold ml-16">Track company-wide progress</h4>
           </span>
-            <p class="text-sm ml-0 md:ml-16 mt-4 text-DarkGrayishBlue">See how your day-to-day tasks fit into the wider vision. Go from 
+            <p class="md:text-sm ml-0 md:ml-16 mt-4 text-DarkGrayishBlue">See how your day-to-day tasks fit into the wider vision. Go from 
             tracking progress at the milestone level all the way done to the 
             smallest of details. Never lose sight of the bigger picture again.</p>
         </div>
@@ -73,7 +73,7 @@
           <span class="bg-VeryPaleRed md:bg-White w-full h-8 inline-block rounded-l-xl py-1">
             <h4 class="text-DarkBlue font-semibold ml-16">Advanced built-in reports</h4>
           </span>
-          <p class="text-sm ml-0 md:ml-16 mt-4 text-DarkGrayishBlue"> Set internal delivery estimates and track progress toward company 
+          <p class="md:text-sm ml-0 md:ml-16 mt-4 text-DarkGrayishBlue"> Set internal delivery estimates and track progress toward company 
               goals. Our customisable dashboard helps you build out the reports 
               you need to keep key stakeholders informed.</p>
         </div>
@@ -82,7 +82,7 @@
           <span class="bg-VeryPaleRed md:bg-White w-full h-8 inline-block rounded-l-xl py-1">
             <h4 class="text-DarkBlue font-semibold ml-16">Everything you need in one place</h4>
           </span>
-          <p class="text-sm ml-0 md:ml-16 mt-4 text-DarkGrayishBlue">Stop jumping from one service to another to communicate, store files, 
+          <p class="md:text-sm ml-0 md:ml-16 mt-4 text-DarkGrayishBlue">Stop jumping from one service to another to communicate, store files, 
             track tasks and share documents. Manage offers an all-in-one team 
             productivity solution.</p>
         </div>
@@ -92,7 +92,7 @@
       <h3 class="text-center text-3xl text-bold text-DarkBlue">What they’ve said</h3>
       <div class="swiper-container overflow-x-hidden mt-16">
        <div class="swiper-wrapper">
-        <div class="flex h-auto swiper-slide rounded-lg flex-col bg-VaryLightGray">
+        <div class="flex h-auto swiper-slide overflow-y-visible rounded-lg flex-col bg-VaryLightGray">
           <img class="w-20 h-20 rounded-full mx-auto relative -top-8" src="<%= require('./images/avatar-anisha.png') %>" alt="">
           <div  class="text-center">
             <h4 class="font-semibold text-DarkBlue">Anisha Li</h4>
