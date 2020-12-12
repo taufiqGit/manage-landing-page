@@ -25,12 +25,14 @@ module.exports = {
       backgroundImage: theme => ({
              'BostDesktop': "url('/src/images/bg-simplify-section-desktop.png')",
              'BostMobile': "url('/src/images/bg-simplify-section-mobile.png')",
+             'TabletPattern': "url('/src/images/bg-tablet-pattern.png')"
       }),
      zIndex: {
         '-10': '-10',
      }, 
      inset: {
        '-32': '-16rem',
+       '-12': '-6rem',
        '-8': '-2rem'
       },
       minWidth: {

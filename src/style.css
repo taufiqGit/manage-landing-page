@@ -1467,6 +1467,10 @@ video {
   background-image: url('/src/images/bg-simplify-section-mobile.png');
 }
 
+.bg-TabletPattern {
+  background-image: url('/src/images/bg-tablet-pattern.png');
+}
+
 .from-BrightRed {
   --gradient-from-color: hsl(12, 88%, 59%);
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(242.454, 95.24759999999999, 58.44599999999999, 0));
@@ -5828,6 +5832,13 @@ video {
   left: -16rem;
 }
 
+.-inset-12 {
+  top: -6rem;
+  right: -6rem;
+  bottom: -6rem;
+  left: -6rem;
+}
+
 .-inset-8 {
   top: -2rem;
   right: -2rem;
@@ -5863,6 +5874,16 @@ video {
 .-inset-x-32 {
   right: -16rem;
   left: -16rem;
+}
+
+.-inset-y-12 {
+  top: -6rem;
+  bottom: -6rem;
+}
+
+.-inset-x-12 {
+  right: -6rem;
+  left: -6rem;
 }
 
 .-inset-y-8 {
@@ -5921,6 +5942,22 @@ video {
 
 .-left-32 {
   left: -16rem;
+}
+
+.-top-12 {
+  top: -6rem;
+}
+
+.-right-12 {
+  right: -6rem;
+}
+
+.-bottom-12 {
+  bottom: -6rem;
+}
+
+.-left-12 {
+  left: -6rem;
 }
 
 .-top-8 {
@@ -10652,6 +10689,10 @@ video {
     background-image: url('/src/images/bg-simplify-section-mobile.png');
   }
 
+  .sm\:bg-TabletPattern {
+    background-image: url('/src/images/bg-tablet-pattern.png');
+  }
+
   .sm\:from-BrightRed {
     --gradient-from-color: hsl(12, 88%, 59%);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(242.454, 95.24759999999999, 58.44599999999999, 0));
@@ -15013,6 +15054,13 @@ video {
     left: -16rem;
   }
 
+  .sm\:-inset-12 {
+    top: -6rem;
+    right: -6rem;
+    bottom: -6rem;
+    left: -6rem;
+  }
+
   .sm\:-inset-8 {
     top: -2rem;
     right: -2rem;
@@ -15048,6 +15096,16 @@ video {
   .sm\:-inset-x-32 {
     right: -16rem;
     left: -16rem;
+  }
+
+  .sm\:-inset-y-12 {
+    top: -6rem;
+    bottom: -6rem;
+  }
+
+  .sm\:-inset-x-12 {
+    right: -6rem;
+    left: -6rem;
   }
 
   .sm\:-inset-y-8 {
@@ -15106,6 +15164,22 @@ video {
 
   .sm\:-left-32 {
     left: -16rem;
+  }
+
+  .sm\:-top-12 {
+    top: -6rem;
+  }
+
+  .sm\:-right-12 {
+    right: -6rem;
+  }
+
+  .sm\:-bottom-12 {
+    bottom: -6rem;
+  }
+
+  .sm\:-left-12 {
+    left: -6rem;
   }
 
   .sm\:-top-8 {
@@ -19772,6 +19846,10 @@ video {
     background-image: url('/src/images/bg-simplify-section-mobile.png');
   }
 
+  .md\:bg-TabletPattern {
+    background-image: url('/src/images/bg-tablet-pattern.png');
+  }
+
   .md\:from-BrightRed {
     --gradient-from-color: hsl(12, 88%, 59%);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(242.454, 95.24759999999999, 58.44599999999999, 0));
@@ -24133,6 +24211,13 @@ video {
     left: -16rem;
   }
 
+  .md\:-inset-12 {
+    top: -6rem;
+    right: -6rem;
+    bottom: -6rem;
+    left: -6rem;
+  }
+
   .md\:-inset-8 {
     top: -2rem;
     right: -2rem;
@@ -24168,6 +24253,16 @@ video {
   .md\:-inset-x-32 {
     right: -16rem;
     left: -16rem;
+  }
+
+  .md\:-inset-y-12 {
+    top: -6rem;
+    bottom: -6rem;
+  }
+
+  .md\:-inset-x-12 {
+    right: -6rem;
+    left: -6rem;
   }
 
   .md\:-inset-y-8 {
@@ -24226,6 +24321,22 @@ video {
 
   .md\:-left-32 {
     left: -16rem;
+  }
+
+  .md\:-top-12 {
+    top: -6rem;
+  }
+
+  .md\:-right-12 {
+    right: -6rem;
+  }
+
+  .md\:-bottom-12 {
+    bottom: -6rem;
+  }
+
+  .md\:-left-12 {
+    left: -6rem;
   }
 
   .md\:-top-8 {
@@ -28892,6 +29003,10 @@ video {
     background-image: url('/src/images/bg-simplify-section-mobile.png');
   }
 
+  .lg\:bg-TabletPattern {
+    background-image: url('/src/images/bg-tablet-pattern.png');
+  }
+
   .lg\:from-BrightRed {
     --gradient-from-color: hsl(12, 88%, 59%);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(242.454, 95.24759999999999, 58.44599999999999, 0));
@@ -33253,6 +33368,13 @@ video {
     left: -16rem;
   }
 
+  .lg\:-inset-12 {
+    top: -6rem;
+    right: -6rem;
+    bottom: -6rem;
+    left: -6rem;
+  }
+
   .lg\:-inset-8 {
     top: -2rem;
     right: -2rem;
@@ -33288,6 +33410,16 @@ video {
   .lg\:-inset-x-32 {
     right: -16rem;
     left: -16rem;
+  }
+
+  .lg\:-inset-y-12 {
+    top: -6rem;
+    bottom: -6rem;
+  }
+
+  .lg\:-inset-x-12 {
+    right: -6rem;
+    left: -6rem;
   }
 
   .lg\:-inset-y-8 {
@@ -33346,6 +33478,22 @@ video {
 
   .lg\:-left-32 {
     left: -16rem;
+  }
+
+  .lg\:-top-12 {
+    top: -6rem;
+  }
+
+  .lg\:-right-12 {
+    right: -6rem;
+  }
+
+  .lg\:-bottom-12 {
+    bottom: -6rem;
+  }
+
+  .lg\:-left-12 {
+    left: -6rem;
   }
 
   .lg\:-top-8 {
@@ -38012,6 +38160,10 @@ video {
     background-image: url('/src/images/bg-simplify-section-mobile.png');
   }
 
+  .xl\:bg-TabletPattern {
+    background-image: url('/src/images/bg-tablet-pattern.png');
+  }
+
   .xl\:from-BrightRed {
     --gradient-from-color: hsl(12, 88%, 59%);
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(242.454, 95.24759999999999, 58.44599999999999, 0));
@@ -42373,6 +42525,13 @@ video {
     left: -16rem;
   }
 
+  .xl\:-inset-12 {
+    top: -6rem;
+    right: -6rem;
+    bottom: -6rem;
+    left: -6rem;
+  }
+
   .xl\:-inset-8 {
     top: -2rem;
     right: -2rem;
@@ -42408,6 +42567,16 @@ video {
   .xl\:-inset-x-32 {
     right: -16rem;
     left: -16rem;
+  }
+
+  .xl\:-inset-y-12 {
+    top: -6rem;
+    bottom: -6rem;
+  }
+
+  .xl\:-inset-x-12 {
+    right: -6rem;
+    left: -6rem;
   }
 
   .xl\:-inset-y-8 {
@@ -42466,6 +42635,22 @@ video {
 
   .xl\:-left-32 {
     left: -16rem;
+  }
+
+  .xl\:-top-12 {
+    top: -6rem;
+  }
+
+  .xl\:-right-12 {
+    right: -6rem;
+  }
+
+  .xl\:-bottom-12 {
+    bottom: -6rem;
+  }
+
+  .xl\:-left-12 {
+    left: -6rem;
   }
 
   .xl\:-top-8 {
