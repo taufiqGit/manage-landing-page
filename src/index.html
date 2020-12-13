@@ -8,8 +8,8 @@
   <title>Manage landing page</title>
   
 </head>
-<body class="font-BeVietnam relative overflow-x-hidden overflow-x-important">
-  <img class="absolute -z-10 -top-12 -right-12 md:-top-32 md:-right-32" src="<%= require('./images/bg-tablet-pattern.svg') %>" alt="tablet-pattern">
+<body class="font-BeVietnam relative bg-TabletPattern bg-no-repeat overflow-x-hidden overflow-x-important">
+  <!-- <img class="absolute -z-10 -top-12 -right-12 md:-top-32 md:-right-32" src="<%= require('./images/bg-tablet-pattern.svg') %>" alt="tablet-pattern"> -->
   <header class="container mx-auto px-8 lg:px-16">    
     <nav class="flex h-24 items-center justify-between">
       <div class="flex h-full items-center">
@@ -90,8 +90,8 @@
     </div>
     <div class="mt-16 relative">
       <h3 class="text-center text-3xl text-bold text-DarkBlue">What they’ve said</h3>
-      <div class="swiper-container overflow-x-hidden mt-16">
-       <div class="swiper-wrapper">
+      <div class="swiper-container overflow-x-hidden mt-16 pb-10">
+       <div class="swiper-wrapper pb-10">
           <div class="swiper-slide pt-8">
             <div class="flex h-auto rounded-lg flex-col bg-VaryLightGray">
               <img class="w-20 h-20 rounded-full mx-auto relative -top-8" src="<%= require('./images/avatar-anisha.png') %>" alt="">
@@ -144,9 +144,8 @@
           </div>
        </div>
         <!-- Add Pagination -->
-      <div class="swiper-pagination relative mt-8"></div>       
+      <div class="swiper-pagination"></div>       
      </div>
-
     </div>
  
     <div class="w-full mt-12 flex justify-center">

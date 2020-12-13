@@ -16,10 +16,6 @@ const Base = {
         new HtmlWebpackPlugin({
             template: './src/index.html',
             filename: 'index.html'
-        }),
-        new MiniCssExtractPlugin({
-            filename: '[name].css',
-            chunkFilename: '[id].css'
         })
     ],
     module: {
@@ -30,12 +26,9 @@ const Base = {
                 use: 'babel-loader'
             },
             {
-                test: /\.css$/i,
+                test: /\.css$/,
                 use: [ 
-                    "style-loader", 
-                    {
-                        loader: MiniCssExtractPlugin.loader
-                    },
+                    "style-loader",
                     {
                         loader: "css-loader", options: { importLoaders: 1 }
                     },
