@@ -98,10 +98,6 @@ strong {
   font-weight: bolder;
 }
 
-.overflow-x-important {
-  overflow-x: hidden !important;
-}
-
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
@@ -1829,40 +1825,16 @@ video {
   --bg-opacity: 1;
 }
 
-.bg-bottom {
-  background-position: bottom;
+.bg-pos-xl {
+  background-position: calc(100% + 170px) -180px;
 }
 
-.bg-center {
-  background-position: center;
+.bg-pos-md {
+  background-position: calc(100% + 230px) -230px;
 }
 
-.bg-left {
-  background-position: left;
-}
-
-.bg-left-bottom {
-  background-position: left bottom;
-}
-
-.bg-left-top {
-  background-position: left top;
-}
-
-.bg-right {
-  background-position: right;
-}
-
-.bg-right-bottom {
-  background-position: right bottom;
-}
-
-.bg-right-top {
-  background-position: right top;
-}
-
-.bg-top {
-  background-position: top;
+.bg-pos-def {
+  background-position: calc(100% + 440px) -380px;
 }
 
 .bg-repeat {
@@ -11051,40 +11023,16 @@ video {
     --bg-opacity: 1;
   }
 
-  .sm\:bg-bottom {
-    background-position: bottom;
+  .sm\:bg-pos-xl {
+    background-position: calc(100% + 170px) -180px;
   }
 
-  .sm\:bg-center {
-    background-position: center;
+  .sm\:bg-pos-md {
+    background-position: calc(100% + 230px) -230px;
   }
 
-  .sm\:bg-left {
-    background-position: left;
-  }
-
-  .sm\:bg-left-bottom {
-    background-position: left bottom;
-  }
-
-  .sm\:bg-left-top {
-    background-position: left top;
-  }
-
-  .sm\:bg-right {
-    background-position: right;
-  }
-
-  .sm\:bg-right-bottom {
-    background-position: right bottom;
-  }
-
-  .sm\:bg-right-top {
-    background-position: right top;
-  }
-
-  .sm\:bg-top {
-    background-position: top;
+  .sm\:bg-pos-def {
+    background-position: calc(100% + 440px) -380px;
   }
 
   .sm\:bg-repeat {
@@ -20208,40 +20156,16 @@ video {
     --bg-opacity: 1;
   }
 
-  .md\:bg-bottom {
-    background-position: bottom;
+  .md\:bg-pos-xl {
+    background-position: calc(100% + 170px) -180px;
   }
 
-  .md\:bg-center {
-    background-position: center;
+  .md\:bg-pos-md {
+    background-position: calc(100% + 230px) -230px;
   }
 
-  .md\:bg-left {
-    background-position: left;
-  }
-
-  .md\:bg-left-bottom {
-    background-position: left bottom;
-  }
-
-  .md\:bg-left-top {
-    background-position: left top;
-  }
-
-  .md\:bg-right {
-    background-position: right;
-  }
-
-  .md\:bg-right-bottom {
-    background-position: right bottom;
-  }
-
-  .md\:bg-right-top {
-    background-position: right top;
-  }
-
-  .md\:bg-top {
-    background-position: top;
+  .md\:bg-pos-def {
+    background-position: calc(100% + 440px) -380px;
   }
 
   .md\:bg-repeat {
@@ -29365,40 +29289,16 @@ video {
     --bg-opacity: 1;
   }
 
-  .lg\:bg-bottom {
-    background-position: bottom;
+  .lg\:bg-pos-xl {
+    background-position: calc(100% + 170px) -180px;
   }
 
-  .lg\:bg-center {
-    background-position: center;
+  .lg\:bg-pos-md {
+    background-position: calc(100% + 230px) -230px;
   }
 
-  .lg\:bg-left {
-    background-position: left;
-  }
-
-  .lg\:bg-left-bottom {
-    background-position: left bottom;
-  }
-
-  .lg\:bg-left-top {
-    background-position: left top;
-  }
-
-  .lg\:bg-right {
-    background-position: right;
-  }
-
-  .lg\:bg-right-bottom {
-    background-position: right bottom;
-  }
-
-  .lg\:bg-right-top {
-    background-position: right top;
-  }
-
-  .lg\:bg-top {
-    background-position: top;
+  .lg\:bg-pos-def {
+    background-position: calc(100% + 440px) -380px;
   }
 
   .lg\:bg-repeat {
@@ -38522,40 +38422,16 @@ video {
     --bg-opacity: 1;
   }
 
-  .xl\:bg-bottom {
-    background-position: bottom;
+  .xl\:bg-pos-xl {
+    background-position: calc(100% + 170px) -180px;
   }
 
-  .xl\:bg-center {
-    background-position: center;
+  .xl\:bg-pos-md {
+    background-position: calc(100% + 230px) -230px;
   }
 
-  .xl\:bg-left {
-    background-position: left;
-  }
-
-  .xl\:bg-left-bottom {
-    background-position: left bottom;
-  }
-
-  .xl\:bg-left-top {
-    background-position: left top;
-  }
-
-  .xl\:bg-right {
-    background-position: right;
-  }
-
-  .xl\:bg-right-bottom {
-    background-position: right bottom;
-  }
-
-  .xl\:bg-right-top {
-    background-position: right top;
-  }
-
-  .xl\:bg-top {
-    background-position: top;
+  .xl\:bg-pos-def {
+    background-position: calc(100% + 440px) -380px;
   }
 
   .xl\:bg-repeat {

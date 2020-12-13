@@ -21,6 +21,11 @@ module.exports = {
     fontFamily: {
       BeVietnam: ['Be Vietnam', 'sans-serif']
     },
+    backgroundPosition: {
+      'pos-xl': 'calc(100% + 170px) -180px',
+      'pos-md': 'calc(100% + 230px) -230px',
+      'pos-def': 'calc(100% + 440px) -380px'
+    },
     extend: {
       backgroundImage: theme => ({
              'BostDesktop': "url('/src/images/bg-simplify-section-desktop.png')",
