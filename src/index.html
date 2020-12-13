@@ -8,7 +8,7 @@
   <title>Manage landing page</title>
   
 </head>
-<body class="font-BeVietnam relative overflow-x-hidden">
+<body class="font-BeVietnam relative overflow-x-hidden overflow-x-important">
   <img class="absolute -z-10 -top-12 -right-12 md:-top-32 md:-right-32" src="<%= require('./images/bg-tablet-pattern.svg') %>" alt="tablet-pattern">
   <header class="container mx-auto px-8 lg:px-16">    
     <nav class="flex h-24 items-center justify-between">
@@ -58,13 +58,13 @@
           the complexity. Our software is tailor-made for modern digital 
           product teams.</p> 
       </section>
-      <section class="w-full ml-4 mt-10 md:mt-0 md:w-6/12">
+      <section class="w-full md:ml-4 mt-10 md:mt-0 md:w-6/12">
         <div class="mt-4 relative">
           <span class="inline-block absolute h-8 w-12 py-1 rounded-full bg-BrightRed text-center text-White">01</span>
           <span class="bg-VeryPaleRed md:bg-White w-full h-8 inline-block rounded-l-xl py-1">
             <h4 class="text-DarkBlue font-semibold ml-16">Track company-wide progress</h4>
           </span>
-            <p class="md:text-sm ml-0 md:ml-16 mt-4 text-DarkGrayishBlue">See how your day-to-day tasks fit into the wider vision. Go from 
+            <p class="md:text-sm ml-3 md:ml-16 mt-4 text-DarkGrayishBlue">See how your day-to-day tasks fit into the wider vision. Go from 
             tracking progress at the milestone level all the way done to the 
             smallest of details. Never lose sight of the bigger picture again.</p>
         </div>
@@ -73,7 +73,7 @@
           <span class="bg-VeryPaleRed md:bg-White w-full h-8 inline-block rounded-l-xl py-1">
             <h4 class="text-DarkBlue font-semibold ml-16">Advanced built-in reports</h4>
           </span>
-          <p class="md:text-sm ml-0 md:ml-16 mt-4 text-DarkGrayishBlue"> Set internal delivery estimates and track progress toward company 
+          <p class="md:text-sm ml-3 md:ml-16 mt-4 text-DarkGrayishBlue"> Set internal delivery estimates and track progress toward company 
               goals. Our customisable dashboard helps you build out the reports 
               you need to keep key stakeholders informed.</p>
         </div>
@@ -82,7 +82,7 @@
           <span class="bg-VeryPaleRed md:bg-White w-full h-8 inline-block rounded-l-xl py-1">
             <h4 class="text-DarkBlue font-semibold ml-16">Everything you need in one place</h4>
           </span>
-          <p class="md:text-sm ml-0 md:ml-16 mt-4 text-DarkGrayishBlue">Stop jumping from one service to another to communicate, store files, 
+          <p class="md:text-sm ml-3 md:ml-16 mt-4 text-DarkGrayishBlue">Stop jumping from one service to another to communicate, store files, 
             track tasks and share documents. Manage offers an all-in-one team 
             productivity solution.</p>
         </div>
@@ -92,63 +92,63 @@
       <h3 class="text-center text-3xl text-bold text-DarkBlue">What they’ve said</h3>
       <div class="swiper-container overflow-x-hidden mt-16">
        <div class="swiper-wrapper">
-        <div class="flex h-auto swiper-slide overflow-y-visible rounded-lg flex-col bg-VaryLightGray">
-          <img class="w-20 h-20 rounded-full mx-auto relative -top-8" src="<%= require('./images/avatar-anisha.png') %>" alt="">
-          <div  class="text-center">
-            <h4 class="font-semibold text-DarkBlue">Anisha Li</h4>
-            <p class="text-sm px-8 py-4 text-DarkGrayishBlue">“Manage has supercharged our team’s workflow. The ability to maintain 
-              visibility on larger milestones at all times keeps everyone motivated.”</p>            
+          <div class="swiper-slide pt-8">
+            <div class="flex h-auto rounded-lg flex-col bg-VaryLightGray">
+              <img class="w-20 h-20 rounded-full mx-auto relative -top-8" src="<%= require('./images/avatar-anisha.png') %>" alt="">
+              <h4 class="font-semibold text-center text-DarkBlue">Anisha Li</h4>
+              <p class="text-sm px-8 py-4 text-center text-DarkGrayishBlue">“Manage has supercharged our team’s workflow. The ability to maintain 
+                visibility on larger milestones at all times keeps everyone motivated.”</p>                    
+            </div>
           </div>
-        </div>
-        <div class="flex h-auto swiper-slide rounded-lg flex-col bg-VaryLightGray">
-          <img class="w-20 h-20 rounded-full mx-auto relative -top-8" src="<%= require('./images/avatar-ali.png') %>" alt="">
-          <div class="text-center">
-            <h4 class="font-semibold text-DarkBlue">Ali Bravo</h4>
-            <p class="text-sm px-8 py-4 text-DarkGrayishBlue"> “We have been able to cancel so many other subscriptions since using 
-              Manage. There is no more cross-channel confusion and everyone is much 
-              more focused.”</p>            
+          <div class="swiper-slide pt-8">
+            <div class="flex h-auto rounded-lg flex-col bg-VaryLightGray">
+              <img class="w-20 h-20 rounded-full mx-auto relative -top-8" src="<%= require('./images/avatar-ali.png') %>" alt="">
+              <h4 class="font-semibold text-center text-DarkBlue">Ali Bravo</h4>
+              <p class="text-sm px-8 py-4 text-center text-DarkGrayishBlue"> “We have been able to cancel so many other subscriptions since using 
+                Manage. There is no more cross-channel confusion and everyone is much 
+                more focused.”</p>            
+            </div>
           </div>
-        </div>
-        <div class="flex h-auto swiper-slide rounded-lg flex-col bg-VaryLightGray">
-          <img class="w-20 h-20 rounded-full mx-auto relative -top-8" src="<%= require('./images/avatar-richard.png') %>" alt="">
-          <div class="text-center">
-            <h4 class="font-semibold text-DarkBlue">Richard Watts</h4>
-            <p class="text-sm px-8 py-4 text-DarkGrayishBlue">“Manage allows us to provide structure and process. It keeps us organized 
-              and focused. I can’t stop recommending them to everyone I talk to!”</p>            
+          <div class="swiper-slide pt-8">
+            <div class="flex h-auto rounded-lg flex-col bg-VaryLightGray">
+              <img class="w-20 h-20 rounded-full mx-auto relative -top-8" src="<%= require('./images/avatar-richard.png') %>" alt="">
+              <h4 class="font-semibold text-center text-DarkBlue">Richard Watts</h4>
+              <p class="text-sm px-8 py-4 text-center text-DarkGrayishBlue">“Manage allows us to provide structure and process. It keeps us organized 
+                and focused. I can’t stop recommending them to everyone I talk to!”</p>            
+            </div>
           </div>
-        </div>
-        <div class="flex h-auto swiper-slide rounded-lg flex-col bg-VaryLightGray">
-          <img class="w-20 h-20 rounded-full mx-auto relative -top-8" src="<%= require('./images/avatar-shanai.png') %>" alt="">
-          <div class="text-center">
-            <h4 class="font-semibold text-DarkBlue">Shanai Gough</h4>
-            <p class="text-sm px-8 py-4 text-DarkGrayishBlue">“Their software allows us to track, manage and collaborate on our projects 
-              from anywhere. It keeps the whole team in-sync without being intrusive.”</p>            
+          <div class="swiper-slide pt-8">
+            <div class="flex h-auto rounded-lg flex-col bg-VaryLightGray">
+              <img class="w-20 h-20 rounded-full mx-auto relative -top-8" src="<%= require('./images/avatar-anisha.png') %>" alt="">
+              <h4 class="font-semibold text-center text-DarkBlue">Anisha Li</h4>
+              <p class="text-sm px-8 py-4 text-center text-DarkGrayishBlue">“Manage has supercharged our team’s workflow. The ability to maintain 
+                visibility on larger milestones at all times keeps everyone motivated.”</p>                    
+            </div>
           </div>
-        </div>
-        <div class="flex h-auto swiper-slide rounded-lg flex-col bg-VaryLightGray">
-          <img class="w-20 h-20 rounded-full mx-auto relative -top-8" src="<%= require('./images/avatar-ali.png') %>" alt="">
-          <div class="text-center">
-            <h4 class="font-semibold text-DarkBlue">Ali Bravo</h4>
-            <p class="text-sm px-8 py-4 text-DarkGrayishBlue"> “We have been able to cancel so many other subscriptions since using 
-              Manage. There is no more cross-channel confusion and everyone is much 
-              more focused.”</p>            
+          <div class="swiper-slide pt-8">
+            <div class="flex h-auto rounded-lg flex-col bg-VaryLightGray">
+              <img class="w-20 h-20 rounded-full mx-auto relative -top-8" src="<%= require('./images/avatar-ali.png') %>" alt="">
+              <h4 class="font-semibold text-center text-DarkBlue">Ali Bravo</h4>
+              <p class="text-sm px-8 py-4 text-center text-DarkGrayishBlue"> “We have been able to cancel so many other subscriptions since using 
+                Manage. There is no more cross-channel confusion and everyone is much 
+                more focused.”</p>            
+            </div>
           </div>
-        </div>
-        <div class="flex h-auto swiper-slide rounded-lg flex-col bg-VaryLightGray">
-          <img class="w-20 h-20 rounded-full mx-auto relative -top-8" src="<%= require('./images/avatar-richard.png') %>" alt="">
-          <div class="text-center">
-            <h4 class="font-semibold text-DarkBlue">Richard Watts</h4>
-            <p class="text-sm px-8 py-4 text-DarkGrayishBlue">“Manage allows us to provide structure and process. It keeps us organized 
-              and focused. I can’t stop recommending them to everyone I talk to!”</p>            
+          <div class="swiper-slide pt-8">
+            <div class="flex h-auto rounded-lg flex-col bg-VaryLightGray">
+              <img class="w-20 h-20 rounded-full mx-auto relative -top-8" src="<%= require('./images/avatar-richard.png') %>" alt="">
+              <h4 class="font-semibold text-center text-DarkBlue">Richard Watts</h4>
+              <p class="text-sm px-8 py-4 text-center text-DarkGrayishBlue">“Manage allows us to provide structure and process. It keeps us organized 
+                and focused. I can’t stop recommending them to everyone I talk to!”</p>            
+            </div>
           </div>
-        </div>
-      </div>
-          <!-- Add Pagination -->
-        <div class="swiper-pagination relative mt-8"></div>
-      </div>
-      
+       </div>
+        <!-- Add Pagination -->
+      <div class="swiper-pagination relative mt-8"></div>       
+     </div>
+
     </div>
-    
+ 
     <div class="w-full mt-12 flex justify-center">
       <button class="text-sm font-bold h-10 w-32 text-White bg-BrightRed rounded-full hover:bg-VeryPaleRed">Get Started</button>
     </div>
@@ -187,7 +187,7 @@
        <input class="w-48 h-10 rounded-full text-VeryDarkBlue px-4 py-3" type="text" placeholder="Updates in your inbox…">
        <button class="w-16 h-10 bg-BrightRed rounded-full font-bold text-White">Go</button>
       </div>
-      <p class="text-sm mx-auto absolute md:static bottom-0">Copyright 2020. All Rights Reserved</p>
+      <p class="text-sm mx-auto absolute md:static bottom-0">Copyright 2020 <a href="#">taufiq</a>. All Rights Reserved</p>
     </div>
   </footer>
 </body>
