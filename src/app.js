@@ -1,5 +1,4 @@
-import './style.css';
-import 'swiper/css/swiper.css';
+import './main.css';
 
 
 import Swiper, {Pagination} from "swiper"

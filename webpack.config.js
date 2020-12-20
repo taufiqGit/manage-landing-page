@@ -16,6 +16,9 @@ const Base = {
         new HtmlWebpackPlugin({
             template: './src/index.html',
             filename: 'index.html'
+        }),
+        new MiniCssExtractPlugin({
+            filename: '[name]-[contenthash:8].css'
         })
     ],
     module: {
@@ -28,7 +31,7 @@ const Base = {
             {
                 test: /\.css$/,
                 use: [ 
-                    "style-loader",
+                    MiniCssExtractPlugin.loader,
                     {
                         loader: "css-loader", options: { importLoaders: 1 }
                     },
